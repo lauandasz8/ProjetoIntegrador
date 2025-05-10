@@ -23,7 +23,7 @@ Este repositório contém o projeto integrador da **Capacita Brasil**, desenvolv
 - **Lauanda Gabriella  [@lauandasz8](https://github.com/lauandasz8)** — Desenvolvedor Front-End  
 - **Sandra Maria [@SandraVasconcelos-74](https://github.com/SandraVasconcelos-74)** — Desenvolvedor Front-End
 - **Alef [@LysandreAlef](https://github.com/LysandreAlef)** — Desenvolvedor Front-End  
-- **Maria Beatriz [@Trixx191Trixx191](https://github.com/Trixx191)** — Desenvolvedor Front-End  
+- **Maria Beatriz [@Trixx19](https://github.com/Trixx19)** — Desenvolvedor Front-End  
 
 ---
 
