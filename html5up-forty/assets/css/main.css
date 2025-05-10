@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: #f2f3f7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -160,11 +160,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #ffffff !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #eb9b24 !important;
 		}
 
 	strong, b {
@@ -1784,7 +1784,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #743c1c;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -3114,8 +3114,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
+		background-color: #2a2f4a00;
+		box-shadow: 0 0 0.25em 0 rgba(206, 195, 195, 0.15);
 		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
@@ -3145,7 +3145,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #24294300;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3153,11 +3153,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #ffffff;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #d68426;
 			}
 
 		#header nav {
@@ -3263,7 +3263,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #ffffff;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3410,7 +3410,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #2429432d;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3491,7 +3491,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #2b2828;
 		}
 
 		#banner.style2:after {
@@ -3950,3 +3950,122 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Adicione isto ao final do arquivo main.css */
+
+/* Cores Terrosas */
+:root {
+	--marrom-escuro: #5C4033;
+	--marrom-medio: #8B5A2B;
+	--marrom-claro: #A68A64;
+	--bege: #D2B48C;
+	--creme: #F5F0E6;
+	--texto-escuro: #3E2723;
+  }
+  
+  /* Fundo e Texto */
+  body {
+	background-color: var(--creme) !important;
+	color: var(--texto-escuro) !important;
+  }
+  
+  /* Cabeçalho */
+  #header {
+	background-color: var(--marrom-escuro) !important;
+  }
+  
+  #header .logo strong {
+	background-color: var(--marrom-medio) !important;
+	color: var(--creme) !important;
+  }
+  
+  #header .logo:hover strong {
+	background-color: var(--marrom-claro) !important;
+  }
+  
+  /* Botões */
+  .button {
+	box-shadow: inset 0 0 0 2px var(--marrom-medio) !important;
+	color: var(--marrom-medio) !important;
+  }
+  
+  .button:hover {
+	box-shadow: inset 0 0 0 2px var(--marrom-claro) !important;
+	color: var(--marrom-claro) !important;
+  }
+  
+  .button.primary {
+	background-color: var(--marrom-medio) !important;
+	color: var(--creme) !important;
+  }
+  
+  .button.primary:hover {
+	background-color: var(--marrom-claro) !important;
+  }
+  
+  /* Seções */
+  #main {
+	background-color: var(--creme) !important;
+  }
+  
+  /* Tiles (Grade de Produtos) */
+  .tiles article:nth-child(6n - 5):before { background-color: var(--marrom-escuro) !important; }
+  .tiles article:nth-child(6n - 4):before { background-color: var(--marrom-medio) !important; }
+  .tiles article:nth-child(6n - 3):before { background-color: var(--marrom-claro) !important; }
+  .tiles article:nth-child(6n - 2):before { background-color: var(--bege) !important; }
+  
+  /* Formulários */
+  input, select, textarea {
+	background: rgba(92, 64, 51, 0.05) !important;
+	color: var(--texto-escuro) !important;
+  }
+  
+  /* Rodapé */
+  #footer {
+	background-color: var(--marrom-escuro) !important;
+	color: var(--bege) !important;
+  }
+  
+  #footer .copyright li {
+	color: var(--bege) !important;
+  }
+  
+  /* Menu */
+  #menu {
+	background: rgba(92, 64, 51, 0.95) !important;
+  }
+  
+  /* Pirâmide Olfativa (para páginas de produtos) */
+  .pyramid {
+	display: flex;
+	justify-content: space-between;
+	margin: 2em 0;
+  }
+  
+  .pyramid-level {
+	flex: 1;
+	padding: 1em;
+	text-align: center;
+  }
+  
+  .notes-top {
+	background-color: rgba(214, 196, 155, 0.3);
+	border-top: 3px solid var(--marrom-claro);
+  }
+  
+  .notes-heart {
+	background-color: rgba(166, 138, 100, 0.3);
+	border-top: 3px solid var(--marrom-medio);
+  }
+  
+  .notes-base {
+	background-color: rgba(139, 90, 43, 0.3);
+	border-top: 3px solid var(--marrom-escuro);
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 736px) {
+	.pyramid {
+	  flex-direction: column;
+	}
+  }
