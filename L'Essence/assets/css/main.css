@@ -4069,3 +4069,10 @@ input, select, textarea {
 	  flex-direction: column;
 	}
   }
+
+  .texto-banco {
+	color: white;
+  }
+  .texto-marrom {
+	color: var(--marrom-escuro);
+  }

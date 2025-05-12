@@ -1,4 +1,4 @@
-# 🌸 Site de Perfumaria "X"
+# 🌸 Site de Perfumaria L'Essence
 
 Este repositório contém o projeto integrador da **Capacita Brasil**, desenvolvido como parte da formação em desenvolvimento web. O site "X" é uma loja virtual fictícia de perfumaria, com foco em apresentar produtos, promover marcas e oferecer uma experiência visual agradável ao usuário.
 
